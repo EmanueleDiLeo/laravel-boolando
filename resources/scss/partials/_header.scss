@@ -1,0 +1,27 @@
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:$bg-header-color;
+    z-index: 999;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    div{
+      justify-content: space-between;
+      align-items: center;
+      img{
+        max-height: 30px;
+      }
+      nav{
+        width: 30%;
+      }
+    }
+}
+.main-menu a:hover{
+    text-decoration: underline;
+}
+
+.shop-menu ul{
+    justify-content: flex-end;
+}
