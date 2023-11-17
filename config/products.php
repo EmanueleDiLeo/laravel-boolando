@@ -22,7 +22,7 @@ return[
           'imgHover'=>"2b.webp",
           'discount'=>'-30%',
           'green'=>null,
-          'favorite'=>false,
+          'favorite'=>true,
         ],
         [
           'name'=>'VOGLIA DI COLORI PASTELLO',
@@ -44,7 +44,7 @@ return[
           'imgHover'=>'4b.webp',
           'discount'=>'-50%',
           'green'=>'Sostenibilità',
-          'favorite'=>false,
+          'favorite'=>true,
         ],
         [
           'name'=>'STRIPE BODICE',

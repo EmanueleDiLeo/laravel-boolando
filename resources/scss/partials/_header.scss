@@ -17,11 +17,17 @@ header{
         width: 30%;
       }
     }
-}
-.main-menu a:hover{
-    text-decoration: underline;
+    .main-menu{
+        a{
+            &:hover,
+             &.active{
+                text-decoration: underline;
+            }
+        }
+
+    }
+    .shop-menu ul{
+        justify-content: flex-end;
+    }
 }
 
-.shop-menu ul{
-    justify-content: flex-end;
-}

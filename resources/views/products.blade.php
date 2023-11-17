@@ -2,9 +2,8 @@
 
 
 @section('content')
-
+    <h1>Prodotti</h1>
     <div class="container flex">
-
         @foreach ($products as $item)
         <div class="card">
             <div class="cont-img">

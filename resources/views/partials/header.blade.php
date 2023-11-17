@@ -9,7 +9,9 @@
             <ul class="flex">
                 @foreach ($filters as $item)
                     <li>
-                        <a href="{{ route($item['href']) }}"><strong>{{$item['text']}}</strong></a>
+                        <a class="{{Route::currentRouteName() === $item['href'] ? 'active' : ''}}" href="{{ route($item['href']) }}">
+                            <strong>{{$item['text']}}</strong>
+                        </a>
                     </li>
                 @endforeach
             </ul>
