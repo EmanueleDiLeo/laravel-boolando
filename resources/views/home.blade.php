@@ -3,6 +3,7 @@
 
 @section('content')
 
+    <h1>Benvenuto in Booleando</h1>
 
 @endsection
 
