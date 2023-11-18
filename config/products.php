@@ -12,6 +12,9 @@ return[
           'discount'=>'-50%',
           'green'=>'Sostenibilità',
           'favorite'=>false,
+          'slug'=> 'levis-relaxed-fit-tee-unisex',
+          'gender' => 'man',
+          'description' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus veniam minus, aliquam ab repudiandae explicabo voluptas non at obcaecati fugiat maiores commodi illo dolorem eligendi. Necessitatibus quibusdam explicabo adipisci laborum accusantium facilis inventore iste? Illo necessitatibus delectus quae ipsum!',
         ],
         [
           'name'=>'ROSES TEE',
@@ -23,6 +26,9 @@ return[
           'discount'=>'-30%',
           'green'=>null,
           'favorite'=>true,
+          'slug' => 'guess-roses-tee',
+          'gender' => 'woman',
+          'description' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus veniam minus, aliquam ab repudiandae explicabo voluptas non at obcaecati fugiat maiores commodi illo dolorem eligendi. Necessitatibus quibusdam explicabo adipisci laborum accusantium facilis inventore iste? Illo necessitatibus delectus quae ipsum!',
         ],
         [
           'name'=>'VOGLIA DI COLORI PASTELLO',
@@ -34,6 +40,9 @@ return[
           'discount'=>'-30%',
           'green'=>null,
           'favorite'=>false,
+          'slug' => 'come-zucchero-filato-voglia-di-colori-pastello',
+          'gender' => 'woman',
+          'description' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus veniam minus, aliquam ab repudiandae explicabo voluptas non at obcaecati fugiat maiores commodi illo dolorem eligendi. Necessitatibus quibusdam explicabo adipisci laborum accusantium facilis inventore iste? Illo necessitatibus delectus quae ipsum!',
         ],
         [
           'name'=>'TEE UNISEX',
@@ -45,6 +54,9 @@ return[
           'discount'=>'-50%',
           'green'=>'Sostenibilità',
           'favorite'=>true,
+          'slug' => 'levis-tee-unisex',
+          'gender' => 'man',
+          'description' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus veniam minus, aliquam ab repudiandae explicabo voluptas non at obcaecati fugiat maiores commodi illo dolorem eligendi. Necessitatibus quibusdam explicabo adipisci laborum accusantium facilis inventore iste? Illo necessitatibus delectus quae ipsum!',
         ],
         [
           'name'=>'STRIPE BODICE',
@@ -56,6 +68,9 @@ return[
           'discount'=>null,
           'green'=>null,
           'favorite'=>false,
+          'slug' => 'maya-deluxe-stripe-bodice',
+          'gender' => 'woman',
+          'description' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus veniam minus, aliquam ab repudiandae explicabo voluptas non at obcaecati fugiat maiores commodi illo dolorem eligendi. Necessitatibus quibusdam explicabo adipisci laborum accusantium facilis inventore iste? Illo necessitatibus delectus quae ipsum!',
         ],
         [
           'name'=>'MAGLIONE - BLACK',
@@ -67,6 +82,9 @@ return[
           'discount'=>null,
           'green'=>'Sostenibilità',
           'favorite'=>false,
+          'slug' => 'esprit-maglione-black',
+          'gender' => 'woman',
+          'description' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus veniam minus, aliquam ab repudiandae explicabo voluptas non at obcaecati fugiat maiores commodi illo dolorem eligendi. Necessitatibus quibusdam explicabo adipisci laborum accusantium facilis inventore iste? Illo necessitatibus delectus quae ipsum!',
         ],
     ],
 ];

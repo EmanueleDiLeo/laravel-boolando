@@ -7,8 +7,12 @@ return[
           'text'=>'Home',
         ],
         [
-          'href'=>'products',
-          'text'=>'Prodotti',
+          'href'=>'productsWoman',
+          'text'=>'Donna',
+        ],
+        [
+        'href'=>'productsMan',
+        'text'=>'Uomo',
         ],
         [
           'href'=>'about',
