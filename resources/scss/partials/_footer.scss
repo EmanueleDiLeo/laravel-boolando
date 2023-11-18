@@ -15,4 +15,9 @@ footer{
     ul{
       margin-top: 10px;
     }
+    a{
+        text-decoration: none;
+        color: $link-color;
+        margin-right: 10px;
+    }
   }

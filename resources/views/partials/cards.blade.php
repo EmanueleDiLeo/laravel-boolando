@@ -1,8 +1,10 @@
 
     <div class="card">
+        <div>
+           <a href="{{ route('productDetail', ['slug' => $item['slug']]) }}">
         <div class="cont-img">
-          <img src="/img/{{$item['img']}}" title="{{$item['brand']}}">
-          <img class="switch" src="/img/{{$item['imgHover']}}" alt="{{$item['brand']}}" title="{{$item['brand']}}">
+            <img src="/img/{{$item['img']}}" title="{{$item['brand']}}">
+            <img class="switch" src="/img/{{$item['imgHover']}}" alt="{{$item['brand']}}" title="{{$item['brand']}}">
         </div>
 
         <div class="box-position">
@@ -14,6 +16,9 @@
                 <span class="green">{{$item['green']}}</span>
             @endif
         </div>
+        </a>
+        </div>
+
 
         <span class="heart {{$item['favorite'] === true ? 'active' : ''}}">&hearts;</span>
 
@@ -24,5 +29,5 @@
             <span class="old-price">{{$item['priceOld']}}</span>
         @endif
 
-      </div>
+    </div>
 

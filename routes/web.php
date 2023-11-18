@@ -32,3 +32,16 @@ Route::get('/chi-siamo', function () {
     return view('about');
 })->name('about');
 
+
+
+Route::get('/dettaglio-prodotto/{slug}', function ($slug) {
+
+    $products = config('products.products');
+
+    $product_array = array_filter($products, fn($item) => $item['slug'] === $slug);
+
+    $item = $product_array[array_key_first($product_array)];
+
+
+    return view('productDetail', compact('item'));
+})->name('productDetail');

@@ -20,7 +20,7 @@ header{
     .main-menu{
         a{
             &:hover,
-             &.active{
+            &.active{
                 text-decoration: underline;
             }
         }
@@ -28,6 +28,11 @@ header{
     }
     .shop-menu ul{
         justify-content: flex-end;
+    }
+    a{
+        text-decoration: none;
+        color: $link-color;
+        margin-right: 15px;
     }
 }
 
